@@ -1,3 +1,0 @@
-# $1 name of input file without extension
-#!/bin/bash
-pdftk $1.pdf multistamp numbers.pdf output $1_numbered.pdf
