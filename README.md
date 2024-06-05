@@ -1,5 +1,5 @@
-# bootstrap
-Bu depoda Bootstrap World'un (bootstrapworld.org) Türkçe çevirileri yer almaktadır. 
+# Cebir ve Programlama
+Bu depoda Nesin Köylerinde kullanılan Bootstrap World'un (bootstrapworld.org) Türkçe çevirileri/adaptasyonları yer almaktadır. 
 
 - Orijinal versiyon: Spring 2018 
     + Algebra Spring 2018 URL: http://www.bootstrapworld.org/materials/spring2018/courses/algebra/english/
@@ -24,4 +24,4 @@ Belge tarihi
 
 5. 2023 yılında bazı düzeltmeler yanında deftere sayfa noları eklendi. Defter baskı sırasında bir felaket yaşandı. Nedense defterin ilk deneme baskısı düzgün çıktı. 30 kopyası çoğaltıldığında .odh formatından elde edilen pdf ile bir font sorunu yaşandı ve defterin Cebir kısımında bazı bölümler okunmaz oldu. hepsini elden düzeltmek zorunda kaldık. 
 
-6. 2024 Cebir defteri aşama aşama LaTeX'e çeviriliyor. Önce eski hali grafiklere convert edildi ve grafikleri bir LaTeX dosyasına dahil edildi.  
+6. 2024 Cebir defteri aşama aşama LaTeX'e çeviriliyor. Önce eski hali grafiklere convert edildi ve grafikleri bir LaTeX dosyasına dahil edildi. Çalışma defteri tek LaTeX dosyası olarak birleştirlidi.
