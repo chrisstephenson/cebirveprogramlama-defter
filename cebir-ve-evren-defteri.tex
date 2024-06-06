@@ -4,10 +4,16 @@
 \usepackage[margin=2cm]{geometry}
 \usepackage{amssymb}
 \usepackage[table]{xcolor}
+\usepackage{multirow}
+%\usepackage{multicolumn}
 \usepackage{array}
 \newcommand{\checkbox}{$\square$}
 \newcommand\fillin[1][3cm]{\makebox[#1]{\dotfill}}
-\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+%\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
+\newcolumntype{C}[1]{>{\PreserveBackslash\centering}p{#1}}
+\newcolumntype{R}[1]{>{\PreserveBackslash\raggedleft}p{#1}}
+\newcolumntype{L}[1]{>{\PreserveBackslash\raggedright}p{#1}}
 \newcommand{\centered}[1]{\begin{tabular}{l} #1 \end{tabular}}
 \begin{document}
 \setcounter{page}{1}
@@ -186,6 +192,39 @@ Hedef (yakut) için koordinatlar:  & &  \\[4ex]
 \includegraphics[width=1\linewidth]{cebirsplit-12.png}
 \newpage
 \includegraphics[width=1\linewidth]{cebir-bolum-04-000.png}
+\newpage
+
+\noindent \begin{tabular}{p{16cm}}
+\section*{Sayfa inşaat sırasında. Orijinalı bir sonraki sayfada}
+{\Large \center Problem: Roket Yüksekliği}\\
+\textit{Talimatlar: Bir roket saatte 7 m/s hızla hareket edecek şekilde havalanıyor. Roketin kalktığı andan itibaren geçen süreyi alan ve roketin yüksekliğini veren, roket-yüksekliği adında bir fonksiyon yazınız.}\\
+\large Sözleşme ve Amaç Açıklaması\\
+\textit{Her sözleşme üç bölümden oluşur...}\\
+% \\
+\end{tabular}\\
+\noindent \begin{tabular}{L{4cm} L{6cm} L{6cm}}
+;\dotfill &:\dotfill &$\rightarrow$\dotfill \\
+\end{tabular}
+\noindent \begin{tabular}{C{4cm} C{6cm} C{6cm}}
+\textit{fonksiyon adı} & \textit{girdiler} & \textit{çıktı} \\
+\end{tabular}\\
+\\
+\noindent \begin{tabular}{L{17cm}}
+{;\dotfill}\\
+\end{tabular}
+\noindent \begin{tabular}{C{17cm}}
+{\textit{Fonksiyon ne yapar?}}\\
+\end{tabular}
+
+%Örnekler
+%Birkaç örnek yazıp, değişenleri yuvarlak içine alarak işaretleyiniz.
+%(ÖRNEK())
+%fonksiyon adı&girdi(ler)&Fonksiyonun ürettiği nedir?
+%Tanım
+%Tanımı ve her değişken için verilen isimleri yazınız.
+%(define ()
+%fonksiyon adı&Değişkenler ya da girdiler
+%Fonksiyon verilen değişkenlerle ne yapar? 
 \newpage
 \includegraphics[width=1\linewidth]{cebirsplit-14.png}
 \newpage
