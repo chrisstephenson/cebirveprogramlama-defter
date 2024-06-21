@@ -1,0 +1,34 @@
+Teaching notes content
+
+00. Founding scientists ip etc (bizde yok) bırak
+01. Video oyunu analizi
+02. week1 oyun tasaramı
+03. Koordinatlar
+04. Değerlendirme çemberleri
+05. Veri tipleri Sayı String Boolean (imaj ekle?)
+06. Fonksiyon ve Sözleşmeler (yeni defteri kontrol et ve bizimkiyle karşılaştır)
+07. Foksiyonları kompose etmek. Sayı ve imaj örnekleri
+08. Kendi logonu yarat (bizde yok) bırak
+09. Değerleri tanımak. (defteri kontrol)
+10. Rectangular prism yüzeyi örneği. Bırak
+11. İmajları transform ve birleştirmek (-> 2. hafta?) Bayrak yapmak.
+12. Proje, Bayrak tasaralamak. Bırak
+13. Statik oyun resmini yaratmak
+14. Fonksiyon genelleme olarak. Grafik genellemeler.
+15. Fonksiyon tek değerlidir. Diket çizgi testi. Matematik müfredati için eklendi. Bırak
+16. Fonksiyon notation Math notation. Bırak?
+17. Sözleşmeler Örnekler Tanımlar
+18. Fonkisyon tekrarlama
+19. Linner ve non lineer fonksiyonları. Bırak
+20. Tasarım reçetesi. Roket yüksekliği.
+21. Oyunda hedef hareketi. (bizde de tehlike hareketi)
+22. Fonksisyon dekompose etmek. Limonata örneği. Ekleyelim mi?
+23. Basit Eşitsizlikler
+24. Birleşik eşitsizlikleri 
+25. Sam the butterfly (bizde kelebek bahçesi, bence daha iyi)
+26. Parçalı fomksiyonları.    
+27. Oyuncu hareketi.
+28. Mesafe hesapları
+29. Çarpma. İmaj boyularını ekle, bence.  
+
+Hazır Fonksiyon referans sayfası lazım
