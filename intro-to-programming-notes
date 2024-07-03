@@ -1,5 +1,5 @@
 Introduction to Programming
-The Editor is a software program we use to write Code. Our Editor allows us to experiment with Code in the lower window, in the
+DrRacket is a software program we use to write Code. Our Editor allows us to experiment with Code in the lower window, in the
 Interactions Area. For Code that we want to keep , we can put it in the upper window in the Definitions Area. Clicking the "Run" button
 causes the computer to re-read everything in the Definitions Area and erase anything that was typed into the Interactions Area.
 Data Types
