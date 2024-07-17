@@ -15,6 +15,76 @@
 \newcolumntype{R}[1]{>{\PreserveBackslash\raggedleft}p{#1}}
 \newcolumntype{L}[1]{>{\PreserveBackslash\raggedright}p{#1}}
 \newcommand{\centered}[1]{\begin{tabular}{l} #1 \end{tabular}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% cs tasarim newcommand - tasarım reçetesi için command
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\tasarim}{
+\subsection*{Sözleşme}
+%\textit{Her sözleşme dört bölümden oluşur...}\\[10ex]
+
+\noindent \begin{tabular}{L{4cm} L{6cm} L{6cm}}
+;\dotfill &:\dotfill &$\rightarrow$\dotfill \\
+\end{tabular}
+\noindent \begin{tabular}{C{4cm} C{6cm} C{6cm}}
+\textit{fonksiyon adı} & \textit{girdi veri tipleri} & \textit{çıktı veri tipi} \\
+\end{tabular}\\
+\subsection*{Amaç}
+\noindent \begin{tabular}{L{17cm}}
+{;\dotfill}\\
+\end{tabular}
+\noindent \begin{tabular}{C{17cm}}
+{\textit{Fonksiyon ne yapar?}}\\
+\end{tabular}
+
+\subsection*{Örnekler}
+\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
+\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
+\end{tabular}
+\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
+\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
+\end{tabular}\\
+\\
+
+\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
+\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
+\end{tabular}
+\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
+\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
+\end{tabular}\\
+\\
+
+
+\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
+\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
+\end{tabular}
+\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
+\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
+\end{tabular}\\
+\\
+
+\subsection*{Tanım}
+
+\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
+\texttt{(define } & (\dotfill &\dotfill \texttt{)} &\\
+\end{tabular}
+\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
+\textit & \textit{fonk adı} & \textit{girdi değişken isimleri} & \\
+\end{tabular}\\
+\\
+\noindent \begin{tabular}{L{2cm} L{14cm}}
+ &  {\texttt{(} \dotfill } \texttt{))}\\
+\end{tabular}\\
+\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
+ &  & \multicolumn{2}{c}{\textit {Fonksiyon verilen değişkenlerle ne yapar? }} \\
+\end{tabular}\\
+\\
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% cs tasarim newcommand end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 \begin{document}
 \setcounter{page}{1}
 \noindent {\Large \bf Ad/Soyadı: \dotfill}\\
@@ -290,70 +360,12 @@ Booleanlar sadece true ya da false olabilir
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% sorun tanımı %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent \begin{tabular}{p{16cm}}
+\noindent 
+%\begin{tabular}{p{16cm}}
 \section*{Roket yüksekliği fonksiyonu tasarımı}
-\\
+
 \textit{Talimatlar: Bir roket saatte 7 m/s hızla hareket edecek şekilde havalanıyor. Roketin kalktığı andan itibaren geçen süreyi alan ve roketin yüksekliğini veren,} \texttt{roket-yüksekliği} \textit{ adında bir fonksiyon yazınız.}\\
-\subsection*{Sözleşme}
-%\textit{Her sözleşme dört bölümden oluşur...}\\[10ex]
-\\
-\end{tabular}\\
-\noindent \begin{tabular}{L{4cm} L{6cm} L{6cm}}
-;\dotfill &:\dotfill &$\rightarrow$\dotfill \\
-\end{tabular}
-\noindent \begin{tabular}{C{4cm} C{6cm} C{6cm}}
-\textit{fonksiyon adı} & \textit{girdi veri tipleri} & \textit{çıktı veri tipi} \\
-\end{tabular}\\
-\subsection*{Amaç}
-\noindent \begin{tabular}{L{17cm}}
-{;\dotfill}\\
-\end{tabular}
-\noindent \begin{tabular}{C{17cm}}
-{\textit{Fonksiyon ne yapar?}}\\
-\end{tabular}
-
-\subsection*{Örnekler}
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-\subsection*{Tanım}
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(define } & (\dotfill &\dotfill \texttt{)} &\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdi değişken isimleri} & \\
-\end{tabular}\\
-\\
-\noindent \begin{tabular}{L{2cm} L{14cm}}
- &  {\texttt{(} \dotfill } \texttt{))}\\
-\end{tabular}\\
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
- &  & \multicolumn{2}{c}{\textit {Fonksiyon verilen değişkenlerle ne yapar? }} \\
-\end{tabular}\\
-\\
+\tasarim
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% sorun tanımı sonu %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -362,70 +374,12 @@ Booleanlar sadece true ya da false olabilir
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% sorun tanımı %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent \begin{tabular}{p{16cm}}
+\noindent 
 \section*{Bahçe alanı sorunu}
-\\
+
 \textit{Talimatlar: Tasarım Reçetesi’ni kullanarak ‘bahçe-alanı’ adında bir fonksiyon yazınız. Fonksiyon Çim alanın yüksekliğini ve genişliğini alsın, alanını versin. (Unutma: alan = uzunluk * genişlik!)}\\
-\subsection*{Sözleşme ve Amaç Açıklaması}
-\textit{Her sözleşme üç bölümden oluşur...}\\[10ex]
-\\
-\end{tabular}\\
-\noindent \begin{tabular}{L{4cm} L{6cm} L{6cm}}
-;\dotfill &:\dotfill &$\rightarrow$\dotfill \\
-\end{tabular}
-\noindent \begin{tabular}{C{4cm} C{6cm} C{6cm}}
-\textit{fonksiyon adı} & \textit{girdi veri tipleri} & \textit{çıktı veri tipi} \\
-\end{tabular}\\
-\\
-\noindent \begin{tabular}{L{17cm}}
-{;\dotfill}\\
-\end{tabular}
-\noindent \begin{tabular}{C{17cm}}
-{\textit{Fonksiyon ne yapar?}}\\
-\end{tabular}
 
-\subsubsection*{Örnekler}
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-\subsubsection*{Tanım}
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(define } & (\dotfill &\dotfill \texttt{)} &\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdi değişken isimleri} & \\
-\end{tabular}\\
-\\
-\noindent \begin{tabular}{L{2cm} L{14cm}}
- &  {\texttt{(} \dotfill } \texttt{))}\\
-\end{tabular}\\
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
- &  & \multicolumn{2}{c}{\textit {Fonksiyon verilen değişkenlerle ne yapar? }} \\
-\end{tabular}\\
-\\
+\tasarim
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% sorun tanımı sonu %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -435,70 +389,11 @@ Booleanlar sadece true ya da false olabilir
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% sorun tanımı %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent \begin{tabular}{p{16cm}}
+\noindent 
 \section*{Kırmızı Kare sorunu}
-\\
+ 
 \textit{Talimatlar: Tasarım Reçetesi’ni kullanarak ‘kırmızı-kare’ adında bir fonksiyon yazınız. Bu fonksiyon girdi olarak bir sayı (karenin kenar uzunluğu) alsın ve çıktı olarak içi dolu kırmızı bir kare versin.}\\
-\subsection*{Sözleşme ve Amaç Açıklaması}
-\textit{Her sözleşme üç bölümden oluşur...}\\[10ex]
-\\
-\end{tabular}\\
-\noindent \begin{tabular}{L{4cm} L{6cm} L{6cm}}
-;\dotfill &:\dotfill &$\rightarrow$\dotfill \\
-\end{tabular}
-\noindent \begin{tabular}{C{4cm} C{6cm} C{6cm}}
-\textit{fonksiyon adı} & \textit{girdi veri tipleri} & \textit{çıktı veri tipi} \\
-\end{tabular}\\
-\\
-\noindent \begin{tabular}{L{17cm}}
-{;\dotfill}\\
-\end{tabular}
-\noindent \begin{tabular}{C{17cm}}
-{\textit{Fonksiyon ne yapar?}}\\
-\end{tabular}
-
-\subsubsection*{Örnekler}
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-\subsubsection*{Tanım}
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(define } & (\dotfill &\dotfill \texttt{)} &\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdi değişken isimleri} & \\
-\end{tabular}\\
-\\
-\noindent \begin{tabular}{L{2cm} L{14cm}}
- &  {\texttt{(} \dotfill } \texttt{))}\\
-\end{tabular}\\
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
- &  & \multicolumn{2}{c}{\textit {Fonksiyon verilen değişkenlerle ne yapar? }} \\
-\end{tabular}\\
-\\
+\tasarim
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% sorun tanımı sonu %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -510,70 +405,10 @@ Booleanlar sadece true ya da false olabilir
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% sorun tanımı %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent \begin{tabular}{p{16cm}}
-\section*{Tehlike Güncelleme sorunu}
-\\
+\noindent \section*{Tehlike Güncelleme sorunu}
+
 \textit{Talimatlar: Tasarım Reçetesi’ni kullanarak ’tehlike-güncelle’ adında bir fonksiyon yazınız. Fonksiyon ‘tehlike’nin x-koordinatını alsın ve bir sonraki x-koordinatını (bir öncekinden 25 piksel sola) üretsin.}\\
-\subsection*{Sözleşme ve Amaç Açıklaması}
-\textit{Her sözleşme üç bölümden oluşur...}\\[10ex]
-\\
-\end{tabular}\\
-\noindent \begin{tabular}{L{4cm} L{6cm} L{6cm}}
-;\dotfill &:\dotfill &$\rightarrow$\dotfill \\
-\end{tabular}
-\noindent \begin{tabular}{C{4cm} C{6cm} C{6cm}}
-\textit{fonksiyon adı} & \textit{girdi veri tipleri} & \textit{çıktı veri tipi} \\
-\end{tabular}\\
-\\
-\noindent \begin{tabular}{L{17cm}}
-{;\dotfill}\\
-\end{tabular}
-\noindent \begin{tabular}{C{17cm}}
-{\textit{Fonksiyon ne yapar?}}\\
-\end{tabular}
-
-\subsubsection*{Örnekler}
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-\subsubsection*{Tanım}
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(define } & (\dotfill &\dotfill \texttt{)} &\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdi değişken isimleri} & \\
-\end{tabular}\\
-\\
-\noindent \begin{tabular}{L{2cm} L{14cm}}
- &  {\texttt{(} \dotfill } \texttt{))}\\
-\end{tabular}\\
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
- &  & \multicolumn{2}{c}{\textit {Fonksiyon verilen değişkenlerle ne yapar? }} \\
-\end{tabular}\\
-\\
+\tasarim
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% sorun tanımı sonu %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -582,70 +417,11 @@ Booleanlar sadece true ya da false olabilir
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% sorun tanımı %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent \begin{tabular}{p{16cm}}
+\noindent 
 \section*{Hedef Güncelleme sorunu}
-\\
+
 \textit{Talimatlar: Tasarım Reçetesi’ni kullanarak ’hedef-güncelle’ adında bir fonksiyon yazınız. Fonksiyon ‘hedef’nin x-koordinatını alsın ve bir sonraki x-koordinatını (bir öncekinden 20 piksel sola) üretsin.}\\
-\subsection*{Sözleşme ve Amaç Açıklaması}
-\textit{Her sözleşme üç bölümden oluşur...}\\[10ex]
-\\
-\end{tabular}\\
-\noindent \begin{tabular}{L{4cm} L{6cm} L{6cm}}
-;\dotfill &:\dotfill &$\rightarrow$\dotfill \\
-\end{tabular}
-\noindent \begin{tabular}{C{4cm} C{6cm} C{6cm}}
-\textit{fonksiyon adı} & \textit{girdi veri tipleri} & \textit{çıktı veri tipi} \\
-\end{tabular}\\
-\\
-\noindent \begin{tabular}{L{17cm}}
-{;\dotfill}\\
-\end{tabular}
-\noindent \begin{tabular}{C{17cm}}
-{\textit{Fonksiyon ne yapar?}}\\
-\end{tabular}
-
-\subsubsection*{Örnekler}
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-\subsubsection*{Tanım}
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(define } & (\dotfill &\dotfill \texttt{)} &\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdi değişken isimleri} & \\
-\end{tabular}\\
-\\
-\noindent \begin{tabular}{L{2cm} L{14cm}}
- &  {\texttt{(} \dotfill } \texttt{))}\\
-\end{tabular}\\
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
- &  & \multicolumn{2}{c}{\textit {Fonksiyon verilen değişkenlerle ne yapar? }} \\
-\end{tabular}\\
-\\
+\tasarim
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% sorun tanımı sonu %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -681,71 +457,12 @@ Yukarıda verilen her iki ifade için Değerlendirme Çemberi'ni aşağıdaki da
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% sorun tanımı %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent \begin{tabular}{p{16cm}}
-\section*{“bahçe-içinde-sol?” sorunu}
-\\
-\textit{Tasarım Reçetesi’ni kullanarak “bahçe-içinde-sol?” adında bir fonksiyon yazınız. Bu fonksiyon bir x-koordinatı alır ve kelebeğin sol taraftan bahçe içinde olup olmadığını hesaplar}.
-\\
-\subsection*{Sözleşme ve Amaç Açıklaması}
-\textit{Her sözleşme üç bölümden oluşur...}\\[10ex]
-\\
-\end{tabular}\\
-\noindent \begin{tabular}{L{4cm} L{6cm} L{6cm}}
-;\dotfill &:\dotfill &$\rightarrow$\dotfill \\
-\end{tabular}
-\noindent \begin{tabular}{C{4cm} C{6cm} C{6cm}}
-\textit{fonksiyon adı} & \textit{girdi veri tipleri} & \textit{çıktı veri tipi} \\
-\end{tabular}\\
-\\
-\noindent \begin{tabular}{L{17cm}}
-{;\dotfill}\\
-\end{tabular}
-\noindent \begin{tabular}{C{17cm}}
-{\textit{Fonksiyon ne yapar?}}\\
-\end{tabular}
+\noindent 
+\section*{\texttt{bahçe-içinde-sol?} sorunu}
 
-\subsubsection*{Örnekler}
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
+\textit{Tasarım Reçetesi’ni kullanarak} \texttt{bahçe-içinde-sol?} \textit{adında bir fonksiyon yazınız. Bu fonksiyon bir x-koordinatı alır ve kelebeğin sol taraftan bahçe içinde olup olmadığını hesaplar}.
 \\
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(ÖRNEK } & (\dotfill &\dotfill \texttt{)} &\dotfill \texttt{)}\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdiler} & \textit{çıktı} \\
-\end{tabular}\\
-\\
-
-\subsubsection*{Tanım}
-
-\noindent \begin{tabular}{L{2cm} L{2cm} L{6cm} L{6cm}}
-\texttt{(define } & (\dotfill &\dotfill \texttt{)} &\\
-\end{tabular}
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
-\textit & \textit{fonk adı} & \textit{girdi değişken isimleri} & \\
-\end{tabular}\\
-\\
-\noindent \begin{tabular}{L{2cm} L{14cm}}
- &  {\texttt{(} \dotfill } \texttt{))}\\
-\end{tabular}\\
-\noindent \begin{tabular}{C{2cm} C{2cm} C{6cm} C{6cm}}
- &  & \multicolumn{2}{c}{\textit {Fonksiyon verilen değişkenlerle ne yapar? }} \\
-\end{tabular}\\
-\\
+\tasarim
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% sorun tanımı sonu %%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
