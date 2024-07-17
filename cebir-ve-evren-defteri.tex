@@ -83,6 +83,28 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % cs tasarim newcommand end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% cs sorun newcommand isim metin
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\sorun}[2]{
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% sorun tanımı %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent 
+\section*{\texttt{#1} fonksiyonu tasarımı}
+
+\textit{Tasarım Reçetesi’ni kullanarak} \texttt{#1} \textit{adında bir fonksiyon yazınız. #2}.
+\\
+\tasarim
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%% sorun tanımı sonu %%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% cs sorun newcommand end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 
 \begin{document}
@@ -354,37 +376,11 @@ Booleanlar sadece true ya da false olabilir
 \includegraphics[width=1\linewidth]{cebir-bolum-04-000.png}
 
 
+\sorun{roket-yüksekliği}{Bir roket saatte 7 m/s hızla hareket edecek şekilde havalanıyor. Roketin kalktığı andan itibaren geçen süreyi alan ve roketin yüksekliğini veriyor.}
 
+\sorun{bahçe-alanı}{Fonksiyon Çim alanın yüksekliğini ve genişliğini alsın, alanını versin. (Unutma: alan = uzunluk * genişlik!)}
 
-\newpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% sorun tanımı %%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent 
-%\begin{tabular}{p{16cm}}
-\section*{Roket yüksekliği fonksiyonu tasarımı}
-
-\textit{Talimatlar: Bir roket saatte 7 m/s hızla hareket edecek şekilde havalanıyor. Roketin kalktığı andan itibaren geçen süreyi alan ve roketin yüksekliğini veren,} \texttt{roket-yüksekliği} \textit{ adında bir fonksiyon yazınız.}\\
-\tasarim
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% sorun tanımı sonu %%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% sorun tanımı %%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent 
-\section*{Bahçe alanı sorunu}
-
-\textit{Talimatlar: Tasarım Reçetesi’ni kullanarak ‘bahçe-alanı’ adında bir fonksiyon yazınız. Fonksiyon Çim alanın yüksekliğini ve genişliğini alsın, alanını versin. (Unutma: alan = uzunluk * genişlik!)}\\
-
-\tasarim
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% sorun tanımı sonu %%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
+\sorun{kırmızı-kare}{Bu fonksiyon girdi olarak bir sayı (karenin kenar uzunluğu) alsın ve çıktı olarak içi dolu kırmızı bir kare versin.}
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%% sorun tanımı %%%%%%%%%%%%%%
@@ -452,20 +448,7 @@ Sağa doğru kelebeğin duvara dokunmadığı bir x koordinatı:\texttt{(<   x  
 
 Yukarıda verilen her iki ifade için Değerlendirme Çemberi'ni aşağıdaki dairelerin içerisine çizin.\\
 
-
-\newpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% sorun tanımı %%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent 
-\section*{\texttt{bahçe-içinde-sol?} sorunu}
-
-\textit{Tasarım Reçetesi’ni kullanarak} \texttt{bahçe-içinde-sol?} \textit{adında bir fonksiyon yazınız. Bu fonksiyon bir x-koordinatı alır ve kelebeğin sol taraftan bahçe içinde olup olmadığını hesaplar}.
-\\
-\tasarim
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% sorun tanımı sonu %%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\sorun{bahçe-içinde-sol?}{Bu fonksiyon bir x-koordinatı alır ve kelebeğin sol taraftan bahçe içinde olup olmadığını hesaplar}
 
 \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
