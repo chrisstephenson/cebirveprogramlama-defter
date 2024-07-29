@@ -821,7 +821,7 @@ Fonksiyon ismi&Giriş veri(ler)i&Sonuç veri\\
 Şablon\\
 \hline
 \vspace{0,2cm}
-(define (\fillin[2cm] \hspace{1cm}  \fillin[8cm] ) \\[30ex]
+\texttt{(define (\fillin[2cm] \hspace{1cm}  \fillin[8cm] )} \\[30ex]
 \hline  
 \end{tabular}
 }
@@ -861,7 +861,7 @@ Komponent ismi&Komponent veri tipi&Anlam\\
 \begin{tabular}{| p{17cm} |  }
 \hline			
 \vspace{0.5cm}
-(STRUCT \fillin[3cm] (\fillin[10cm] ))\\[10ex]
+\texttt{(STRUCT \fillin[3cm] (\fillin[10cm] ))}\\[10ex]
 \hline
 \end{tabular}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -874,21 +874,21 @@ Komponent ismi&Komponent veri tipi&Anlam\\
 \newpage
 
 \subsection*{Veri Yapı Tasarımı}
-İsim \fillin[5cm]pasta\\
+İsim: \texttt{pasta}\\
 \vspace{0.5cm}\\
 \begin{tabular}{| p{4cm} | p{4cm} | p{8cm} |  }
 \hline			
 Komponent ismi&Komponent veri tipi&Anlam\\
 \hline
-renk&color &pastanın rengi \\[10ex]
+\texttt{renk}&\texttt{color} &\texttt{pastanın rengi}\\[10ex]
 \hline  
-mesaj-rengi&color &mesajın rengi \\[10ex]
+\texttt{mesaj-rengi}&\texttt{color} &\texttt{mesajın rengi} \\[10ex]
 \hline  
-kat&sayı &pasta katların sayısı \\[10ex]
+\texttt{kat}&\texttt{sayı} &\texttt{pasta katların sayısı} \\[10ex]
 \hline  
-mesaj&metin &pasta üstündeki mesaj \\[10ex]
+\texttt{mesaj}&\texttt{metin} &\texttt{pasta üstündeki mesaj} \\[10ex]
 \hline  
-yarı-çap&sayı &pastanın yarı çapı \\[10ex]
+\texttt{yarı-çap}&\texttt{sayı} &\texttt{pastanın yarı çapı} \\[10ex]
 \hline  
 \end{tabular}
 
@@ -896,7 +896,7 @@ yarı-çap&sayı &pastanın yarı çapı \\[10ex]
 \begin{tabular}{| p{17cm} |  }
 \hline			
 \vspace{0.5cm}
-(STRUCT \fillin[3cm]pasta (\fillin[1cm]renk kat mesaj mesaj-rengi yarı-çap ))\\[10ex]
+\texttt{(STRUCT pasta (renk kat mesaj mesaj-rengi yarı-çap ))}\\[10ex]
 \hline
 \end{tabular}
 
@@ -917,6 +917,11 @@ yarı-çap&sayı &pastanın yarı çapı \\[10ex]
 \tasarimtablosu{v*}
 
 \tasarimtablosu{v-mag}
+
+%%%add other bouncing ball deigns here
+
+\tasarimtablosu{alttan-sek}
+
 
 \newpage
 \section*{Oyun Hikayesi}
@@ -1065,7 +1070,6 @@ Veri ismi&Veri tipi\\
 
 \tasarimtablosu{evren-güncelle}
 
-\tasarimtablosu{alttan-sek}
 
 
 \section*{Benin Oyunumun Hikayesi}
