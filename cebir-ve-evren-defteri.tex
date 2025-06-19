@@ -6,7 +6,9 @@
 \usepackage[table]{xcolor}
 \usepackage{multirow}
 %\usepackage{multicolumn}
+
 \usepackage{array}
+\usepackage{courier}
 \newcommand{\checkbox}{$\square$}
 \newcommand\fillin[1][3cm]{\makebox[#1]{\dotfill}}
 %\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -83,6 +85,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % cs tasarim newcommand end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % cs sorun newcommand isim metin
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -105,6 +108,10 @@
 % cs sorun newcommand end
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% cs cond newcommand 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \newcommand{\cond}{\noindent \begin{tabular}{L{1cm} L{6cm} L{6cm}}
  &  {\texttt{(cond}  } & \\[2ex]
 \end{tabular}\\
@@ -117,6 +124,9 @@
 \noindent \begin{tabular}{L{2cm} L{6cm} L{6cm}}
  & \texttt{(else} & \texttt{\dotfill  )))}
 \end{tabular}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% cs cond newcommand end 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 \setcounter{page}{1}
@@ -828,6 +838,30 @@ Fonksiyon ismi&Giriş veri(ler)i&Sonuç veri\\
 % end command tasarimtablosu %%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% command hazirfonkspec %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\hazirfonkspec}[4]{
+\noindent
+\begin{tabular}{| p{4cm} | p{8cm} | p{4cm} |  }
+%\hline			
+%Fonksiyon ismi&Giriş veri tip(ler)i&Sonuç veri tipi\\
+\hline
+\textbf{\texttt{#1}} & \texttt{#2} & \texttt{#3}
+%\hline 
+\\
+\end{tabular}
+\noindent
+\begin{tabular}{| p{16.87cm} |  }
+\hline
+#4
+%\hline  
+\end{tabular}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% end command hazirfonkspec %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \newcommand{\veriyapi}[1]{
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %           Veri Yapı
@@ -917,7 +951,7 @@ Komponent ismi&Komponent veri tipi&Anlam\\
 
 \tasarimtablosu{v-mag}
 
-%%%add other bouncing ball deigns here
+%%%add other bouncing ball designs here
 
 \tasarimtablosu{alttan-sek}
 
@@ -1233,4 +1267,13 @@ Veri yapı ismi&Veri tipi\\
 
 \tasarimtablosu{ }
 
+\newpage
+\section*{Evren için hazır fonksiyonlar}
+\begin{tabular}{| p{4cm} | p{8cm} | p{4cm} |  }
+\hline			
+Fonksiyon ismi&Giriş veri tip(ler)i&Sonuç veri tipi\\
+
+\end{tabular}
+
+\hazirfonkspec{place-image/v}{imaj v imaj }{imaj}{Birinci imaj, vektörün belirlediği offset ile sahneye (ikinci imaja) yerleştirmek}
 \end{document}
