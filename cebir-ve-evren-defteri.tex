@@ -353,23 +353,23 @@ Hedef (yakut) için koordinatlar:  & &  \\[4ex]
 \includegraphics[width=1\linewidth]{cebir-bolum-03-000.png}
 \newpage
 \noindent{\Large \bf Veri Tipleri}\\
-Kullandığımız veri tipleri arasında Sayılar, Stringler, Booleanlar ve Imajlar var.
+Kullandığımız veri tipleri arasında \texttt{sayı}, \texttt{string}, \texttt{boolean} ve \texttt{imaj} var.
 
 
 \subsection*{Sayılar} 
-Sayılar 
-$ 1 , 0.4 , \frac{1}{3} , -8261.003 $ gibi değerlerdir.
+\texttt{sayı} tipi 
+$ 1 , 0.4 , \frac{1}{3} , -8261.003 $ değerleri gibidir.
 
 \subsection*{Stringler}
-Stringler "Emma" , "Rosanna" , "Jen and Ed" ,  "08/28/1980" bile değerlerdir .
+\texttt{string} tipi "Zübeyde" , "Hıdır" , "Ayşe ve Ali" ,  "08/28/1980" bile değerlerdir .
 
 Stringler her zaman tırnaklar içindeler.
 
 \subsection*{Booleanlar}
-Booleanlar sadece true ya da false olabilir
+\texttt{boolean} tipi sadece true ya da false olabilir
 
 \subsection*{imajlar}
-İmajlar bildiğimiz resimler. 
+\texttt{imaj} tipi bildiğimiz resimlerden. 
 
 
 %.
@@ -415,7 +415,7 @@ Booleanlar sadece true ya da false olabilir
 \newpage
 \includegraphics[width=1.2\linewidth]{cebir-bolum-06-000.png}
 \newpage
-\section*{Ve/Veya}
+\section*{and/or}
 \noindent {\large \textit{ Aşağıdaki ifadeler için değerlendirme çemberlerini çizin ve onları Racket’e çevirin.}}\\[4ex]
 
 \begin{tabular}{| C{4cm} | C{6cm} | C{6cm} |  }
@@ -1279,6 +1279,14 @@ Veri yapı ismi&Veri tipi\\
 \tasarimtablosu{ }
 
 \newpage
+\section*{Cebir ve Evren  için hazır fonksiyonlar}
+\begin{tabular}{| p{4cm} | p{8cm} | p{4cm} |  }
+\hline			
+Fonksiyon ismi&Giriş veri tip(ler)i&Sonuç veri tipi\\
+
+\end{tabular}
+
+\hazirfonkspec{string=?}{string string }{yanlış/doğru}{İki string eşit ise doğru, yoksar yanlış}
 \section*{Evren için hazır fonksiyonlar}
 \begin{tabular}{| p{4cm} | p{8cm} | p{4cm} |  }
 \hline			
