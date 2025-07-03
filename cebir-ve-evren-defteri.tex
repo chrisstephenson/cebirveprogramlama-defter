@@ -4,6 +4,7 @@
 \usepackage[margin=2cm]{geometry}
 \usepackage{amssymb}
 \usepackage[table]{xcolor}
+\usepackage{verbatim}
 %\usepackage{multirow}
 %\usepackage{multicolumn}
 
@@ -854,20 +855,11 @@ Fonksiyon ismi&Giriş veri(ler)i&Sonuç veri\\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\hazirfonkspec}[4]{
 \noindent
-\begin{tabular}{| p{4cm} | p{8cm} | p{4cm} |  }
-%\hline			
-%Fonksiyon ismi&Giriş veri tip(ler)i&Sonuç veri tipi\\
+%\hline
+\textbf{\texttt{#1}} & \texttt{#2} & \texttt{#3}\\
 \hline
-\textbf{\texttt{#1}} & \texttt{#2} & \texttt{#3}
-%\hline 
-\\
-\end{tabular}
-\noindent
-\begin{tabular}{| p{16.87cm} |  }
+\multicolumn{3}{|l|}{#4}\\
 \hline
-#4
-%\hline  
-\end{tabular}
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % end command hazirfonkspec %%%%%%%%%%%%%%%%%%%
@@ -1283,9 +1275,7 @@ Veri yapı ismi&Veri tipi\\
 \begin{tabular}{| p{4cm} | p{8cm} | p{4cm} |  }
 \hline			
 Fonksiyon ismi&Giriş veri tip(ler)i&Sonuç veri tipi\\
-
-\end{tabular}
-
+\hline
 \hazirfonkspec{string=?}{string string }{boolean}{İki string eşit ise doğru, yoksa yanlış}
 \hazirfonkspec{scale}{imaj sayı }{imaj}{Verilen imaj verilen sayıya göre büyütüp küçültmek}
 \hazirfonkspec{image-height}{imaj}{sayı}{Piksel sayısı olarak verilen imajın yüksekliğini hesaplıyor}
@@ -1294,23 +1284,20 @@ Fonksiyon ismi&Giriş veri tip(ler)i&Sonuç veri tipi\\
 \hazirfonkspec{flip-vertical}{imaj}{imaj}{Verilen imajı alt-üst çevirmek}
 \hazirfonkspec{flip-horizontal}{imaj}{imaj}{Verilen imajı sağ-sol çevirmek}
 \hazirfonkspec{sqrt}{sayı}{sayı}{Verilen sayının karekökünü hesaplıyor}
-
-
-
-\begin{tabular}{| p{4cm} | p{8cm} | p{4cm} |  }
-\hline			
-
 \end{tabular}
 
 
+ 
 \section*{Evren için hazır fonksiyonlar}
 \begin{tabular}{| p{4cm} | p{8cm} | p{4cm} |  }
 \hline			
 Fonksiyon ismi&Giriş veri tip(ler)i&Sonuç veri tipi\\
-
-\end{tabular}
+\hline
 
 \hazirfonkspec{place-image/v}{imaj v imaj }{imaj}{Birinci imaj, vektörün belirlediği offset ile sahneye (ikinci imaja) yerleştirmek}
 \hazirfonkspec{place-line/v}{v v color imaj }{imaj}{İki vektör arasında olan çizgi verilen color ile ile sahneye (imaja) yerleştirmek}
 \hazirfonkspec{place-text/v}{v string color sayı imaj }{imaj}{Vektörün belirlediği yerde verilen metin verilen renkle verilen boyutta sahneye (imaja) yerleştirmek}
+\end{tabular}
+
+
 \end{document}
