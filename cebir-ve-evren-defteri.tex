@@ -962,7 +962,7 @@ Komponent ismi&Komponent veri tipi&Anlam\\
 \begin{tabular}{| p{17cm} |  }
 \hline			
 \vspace{0.5cm}
-\texttt{(STRUCT pasta (renk kat mesaj mesaj-rengi yarı-çap ))}\\[10ex]
+\texttt{(STRUCT pasta (renk mesaj-rengi kat mesaj yarı-çap ))}\\[10ex]
 \hline
 \end{tabular}
 
@@ -1337,7 +1337,9 @@ Fonksiyon ismi&Giriş veri tip(ler)i&Sonuç veri tipi\\
 \hline
 \hazirfonkspec{string=?}{string string }{boolean}{İki string eşit ise doğru, yoksa yanlış}
 \hazirfonkspec{string-append}{string string }{boolean}{İki string arka arkaya ekliyor}
-\hazirfonkspec{square}{sayı string string}{imaj}{Verilen çapta verilen renk ve \texttt{\"solid\"} ya da \texttt{\"outline\"} belirlenen tarzda bir kare imajı yaratıyor. }
+\hazirfonkspec{square}{sayı string string}{imaj}{Verilen çapta verilen \texttt{\"solid\"} ya da \texttt{\"outline\"} tarzda, verilen renkte bir kare imajı yaratıyor. }
+\hazirfonkspec{circle}{sayı string string}{imaj}{Verilen çapta verilen \texttt{\"solid\"} ya da \texttt{\"outline\"} tarzda, verilen renkte bir daire imajı yaratıyor. }
+\hazirfonkspec{triangle}{sayı string string}{imaj}{Verilen çapta verilen \texttt{\"solid\"} ya da \texttt{\"outline\"} tarzda, verilen renkte bir üçgen imajı yaratıyor. }
 \hazirfonkspec{scale}{sayı imaj}{imaj}{Verilen imaj verilen sayıya göre büyütüp küçültmek}
 \hazirfonkspec{image-height}{imaj}{sayı}{Piksel sayısı olarak verilen imajın yüksekliğini hesaplıyor}
 \hazirfonkspec{image-width}{imaj}{sayı}{Piksel sayısı olarak verilen imajın genişliğini hesaplıyor}
@@ -1364,5 +1366,17 @@ Fonksiyon ismi&Giriş veri tip(ler)i&Sonuç veri tipi\\
 \hazirfonkspec{place-text/v}{v string color sayı imaj }{imaj}{Vektörün belirlediği yerde verilen metin verilen renkle verilen boyutta sahneye (imaja) yerleştirmek}
 \end{tabular}
 
+\section*{2026 Eğitim Takımı}
+Hocalar
+\begin{itemize}
+ \item Chris Stephenson
+ \item Mehmet Gençer
+ \item Banu Yobaş
+ \item Tuğba Dalyan
+\end{itemize}
+Asistanlar
+\begin{itemize}
+ \item Özgür
+\end{itemize}
 
 \end{document}
