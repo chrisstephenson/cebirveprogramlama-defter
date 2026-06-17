@@ -1,0 +1,33 @@
+\contentsline {section}{Bilgisayar Oyunları ve Koordinat Düzlemeleri}{3}{}%
+\contentsline {subsection}{Bilgisayar Oyunları ve Koordinat Düzlemeleri}{3}{}%
+\contentsline {subsection}{Tersine Mühendislik: NinjaCat nasıl çalışır?}{3}{}%
+\contentsline {subsection}{Koordinatları Bulmak}{4}{}%
+\contentsline {subsection}{Kendi Video Oyunumuz}{5}{}%
+\contentsline {section}{Değerlendirme Çemberleri}{6}{}%
+\contentsline {section}{Tanımları giriş}{11}{}%
+\contentsline {section}{Tasarım Reçetesi}{13}{}%
+\contentsline {section}{Oyun Animasyonu}{17}{}%
+\contentsline {section}{Karşılaştırma Fonksiyonları}{20}{}%
+\contentsline {subsection}{and/or}{21}{}%
+\contentsline {subsection}{Tanınmış ölçüler kullanmak}{22}{}%
+\contentsline {subsection}{Oyunumuza dönüyoruz}{35}{}%
+\contentsline {section}{Koşullu Dallanma}{39}{}%
+\contentsline {section}{Çarpışma Tespiti}{42}{}%
+\contentsline {section}{Sunuma Hazırlık}{46}{}%
+\contentsline {section}{Veri Yapı Tasarımı}{50}{}%
+\contentsline {subsection}{Pasta}{50}{}%
+\contentsline {section}{Vektörler}{54}{}%
+\contentsline {subsection}{Vektör veri yapı}{55}{}%
+\contentsline {subsection}{Vektör fonksiyonların tanımı}{56}{}%
+\contentsline {section}{Top Oyunu}{62}{}%
+\contentsline {section}{Top oyunun sahneleri}{62}{}%
+\contentsline {subsection}{Top oyunun verileri}{65}{}%
+\contentsline {subsection}{Top oyunun veri yapıları}{66}{}%
+\contentsline {subsection}{Top oyunun fonksiyonları}{67}{}%
+\contentsline {section}{Benin Oyunum - Check List}{73}{}%
+\contentsline {section}{Benin Oyunum}{75}{}%
+\contentsline {subsection}{Benim Oyunum Sahneleri}{75}{}%
+\contentsline {subsection}{Benim oyunumun verı yapıları}{77}{}%
+\contentsline {subsection}{Benim oyunumun fonksiyonları}{91}{}%
+\contentsline {section}{Cebir ve Evren için hazır fonksiyonlar}{105}{}%
+\contentsline {section}{2026 Eğitim Takımı}{107}{}%
