@@ -24,10 +24,10 @@
 \contentsline {subsection}{Top oyunun verileri}{65}{section*.187}%
 \contentsline {subsection}{Top oyunun veri yapıları}{66}{section*.188}%
 \contentsline {subsection}{Top oyunun fonksiyonları}{67}{section*.190}%
-\contentsline {section}{Benin Oyunum - Check List}{73}{section*.217}%
-\contentsline {section}{Benin Oyunum}{75}{section*.218}%
-\contentsline {subsection}{Benim Oyunum Sahneleri}{75}{section*.219}%
-\contentsline {subsection}{Benim oyunumun verı yapıları}{77}{section*.220}%
-\contentsline {subsection}{Benim oyunumun fonksiyonları}{91}{section*.247}%
-\contentsline {section}{Cebir ve Evren için hazır fonksiyonlar}{105}{section*.312}%
-\contentsline {section}{2026 Eğitim Takımı}{107}{section*.315}%
+\contentsline {section}{Benin Oyunum - Check List}{74}{section*.222}%
+\contentsline {section}{Benin Oyunum}{76}{section*.223}%
+\contentsline {subsection}{Benim Oyunum Sahneleri}{76}{section*.224}%
+\contentsline {subsection}{Benim oyunumun verı yapıları}{78}{section*.225}%
+\contentsline {subsection}{Benim oyunumun fonksiyonları}{92}{section*.252}%
+\contentsline {section}{Cebir ve Evren için hazır fonksiyonlar}{106}{section*.317}%
+\contentsline {section}{2026 Eğitim Takımı}{108}{section*.320}%
