@@ -1,4 +1,4 @@
-# Cebir ve Programlama
+i# Cebir ve Programlama
 Bu depoda Nesin Köylerinde kullanılan Bootstrap World'un (bootstrapworld.org) Türkçe çevirileri/adaptasyonları yer almaktadır. 
 
 - Orijinal versiyon: Spring 2018 
@@ -25,3 +25,5 @@ Belgelerin 2018 sonrası tarihi
    + 2023 yılında bazı düzeltmeler yanında deftere sayfa noları eklendi. Defter baskı sırasında bir felaket yaşandı. Nedense defterin ilk deneme baskısı düzgün çıktı. 30 kopyası çoğaltıldığında .odh formatından elde edilen pdf ile bir font sorunu yaşandı ve defterin Cebir kısımında bazı bölümler okunmaz oldu. hepsini elden düzeltmek zorunda kaldık. 
 
    + 2024 Cebir defteri aşama aşama LaTeX'e çeviriliyor. Önce eski hali grafiklere convert edildi ve grafikleri bir LaTeX dosyasına dahil edildi. Çalışma defteri tek LaTeX dosyası olarak birleştirlidi.
+
+   + 2026 yazokulu öncesi sırasında düzelemeler eklemeler yapılmaya devam ediyor. Kod dosyaları biribirine daha uyumlu haline getirildi. Çalışma defteri ona göre değiştirildi. 
