@@ -10,24 +10,25 @@
 \contentsline {section}{Karşılaştırma Fonksiyonları}{20}{section*.37}%
 \contentsline {subsection}{and/or}{21}{section*.38}%
 \contentsline {subsection}{Tanınmış ölçüler kullanmak}{22}{section*.39}%
-\contentsline {subsection}{Oyunumuza dönüyoruz}{35}{section*.100}%
-\contentsline {section}{Koşullu Dallanma}{39}{section*.116}%
-\contentsline {section}{Çarpışma Tespiti}{42}{section*.124}%
-\contentsline {section}{Sunuma Hazırlık}{46}{section*.135}%
-\contentsline {section}{Veri Yapı Tasarımı}{50}{section*.139}%
-\contentsline {subsection}{Pasta}{50}{section*.140}%
-\contentsline {section}{Vektörler}{54}{section*.156}%
-\contentsline {subsection}{Vektör veri yapı}{55}{section*.157}%
-\contentsline {subsection}{Vektör fonksiyonların tanımı}{56}{section*.159}%
-\contentsline {section}{Top Oyunu}{62}{section*.184}%
-\contentsline {section}{Top oyunun sahneleri}{62}{section*.185}%
-\contentsline {subsection}{Top oyunun verileri}{65}{section*.187}%
-\contentsline {subsection}{Top oyunun veri yapıları}{66}{section*.188}%
-\contentsline {subsection}{Top oyunun fonksiyonları}{67}{section*.190}%
-\contentsline {section}{Benin Oyunum - Check List}{74}{section*.222}%
-\contentsline {section}{Benin Oyunum}{76}{section*.223}%
-\contentsline {subsection}{Benim Oyunum Sahneleri}{76}{section*.224}%
-\contentsline {subsection}{Benim oyunumun verı yapıları}{78}{section*.225}%
-\contentsline {subsection}{Benim oyunumun fonksiyonları}{92}{section*.252}%
-\contentsline {section}{Cebir ve Evren için hazır fonksiyonlar}{106}{section*.317}%
-\contentsline {section}{2026 Eğitim Takımı}{108}{section*.320}%
+\contentsline {subsection}{Oyunumuza dönüyoruz}{34}{section*.95}%
+\contentsline {section}{Koşullu Dallanma}{38}{section*.111}%
+\contentsline {section}{Çarpışma Tespiti}{41}{section*.119}%
+\contentsline {section}{Sunuma Hazırlık}{45}{section*.130}%
+\contentsline {section}{Veri Yapı Tasarımı}{49}{section*.134}%
+\contentsline {subsection}{Pasta}{49}{section*.135}%
+\contentsline {section}{Vektörler}{53}{section*.151}%
+\contentsline {subsection}{Vektör veri yapı}{54}{section*.152}%
+\contentsline {subsection}{Vektör fonksiyonların tanımı}{55}{section*.154}%
+\contentsline {section}{Top Oyunu}{61}{section*.179}%
+\contentsline {section}{Top oyunun sahneleri}{61}{section*.180}%
+\contentsline {subsection}{Top oyunun verileri}{64}{section*.182}%
+\contentsline {subsection}{Top oyunun veri yapıları}{65}{section*.183}%
+\contentsline {subsection}{Top oyunun fonksiyonları}{66}{section*.185}%
+\contentsline {section}{Benin Oyunum - Check List}{73}{section*.217}%
+\contentsline {section}{Benin Oyunum}{75}{section*.218}%
+\contentsline {subsection}{Benim Oyunum Sahneleri}{75}{section*.219}%
+\contentsline {subsection}{Benim oyunumun verı yapıları}{77}{section*.220}%
+\contentsline {subsection}{Benim oyunumun fonksiyonları}{91}{section*.247}%
+\contentsline {section}{Cebir ve Evren için hazır fonksiyonlar}{105}{section*.312}%
+\contentsline {section}{Cebir ve Evren için hazır fonksiyonlar}{106}{section*.313}%
+\contentsline {section}{2026 Eğitim Takımı}{109}{section*.317}%
